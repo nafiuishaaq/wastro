@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 1px solid #ccc;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+
+}
+.left {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 10px;
+    margin: 30px;
+    text-decoration: none;
+
+}
+.right img{
+    margin: 30px;
+    margin-right: 20px;
+}
+.left a{
+    text-decoration: none;
+    color: black;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    
+}
+.body-left{
+    border: 1px solid #ccc;
+    margin: 50px;
+    margin-left: 100px;
+    padding: 50px;
+    text-align: center;
+}
+.body-left p{
+    padding: 10px;
+    text-align: left;
+}
+.body-left button{
+    border: 1px solid #ccc;
+    padding: 5px 30px;
+    margin-top: 10px;
+    
+}
+.body-left a{
+    text-decoration: none;
+    color: black;
+}
+.body-right{
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 80%;
+}
+.body-right h3{
+    padding: 20px;
+
+}
+.body-right p{
+    padding: 10px;
+    font-weight: bold;
+}
+.body-right input{
+    padding: 10px 200px 10px 5px;
+    width: 80%;
+    border: 1px solid #ccc;
+
+    
+}
+.button{
+    margin: 10px;
+    margin-left: 800px;
+}
+.button button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f2f2;
+    height: 150px;
+    
+
+}
+.left-foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.left-foot1{
+    display: flex;
+    align-items: center;
+    color: #5aac53;
+    gap: 10px;
+    padding: 10px;
+}
+.foot-middle1 h3, .foot-middle2 h3{
+    padding: 8px;
+}
+.foot-middle1 p, .foot-middle2 p{
+    color:#7a7979;
+    padding: 3px;
+
+}
+.foot-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    color: #7a7979;
+}
+.foot-middle1, .foot-middle2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
