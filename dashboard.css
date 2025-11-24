@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 15px;
+    border: 2px solid rgb(230, 220, 220);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 2px solid rgb(230, 220, 220);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav a:hover{
+    color: forestgreen;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.icon{
+    background-color: forestgreen;
+    color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    color: forestgreen;
+}
+.avatar img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.main{
+    padding:60px;
+}
+.first{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.card1, .card2, .card3{
+    border: 2px solid rgb(230, 220, 220);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.second{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "card4 card5"
+                          "card6 card7";
+    gap: 20px;
+}
+.card4{
+    grid-area: card4;
+    padding: 10px;
+    border: 2px solid rgb(230, 220, 220);
+    border-radius: 7px;
+}
+.graph{
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+}
+.card5{
+    grid-area: card5;
+    padding: 10px;
+    border: 2px solid rgb(230, 220, 220);
+    border-radius: 5px;
+}
+
+
+.card6{
+    grid-area: card6;
+    border: 2px solid rgb(230, 220, 220);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.card7{
+    grid-area: card7;
+    border: 2px solid rgb(230, 220, 220);
+    padding: 10px ;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+.completed{
+    background-color: lightgreen;
+    color: forestgreen;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.pending{
+    background-color:lightpink ;
+    color: crimson;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+}
+img{
+    height: 90px;
+    width: 90px;
+    border-radius: 5px;
+}
+.make{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+    background-color: lightgreen;
+    color: forestgreen;
+    border-radius: 5px;
+
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+
+}
+.view{
+    text-align: center;
+    margin-left: 400px;
+    color: forestgreen;
+    padding: 8px;
+    width: 200px;
+    border: 2px solid rgb(230, 220, 220);
+    border-radius: 4px;
+    
+}
+.view a{
+    text-decoration: none;
+    color: forestgreen;
+}
+
+
+.footer{
+    background-color: rgb(236, 233, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.company, .support{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.follow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
